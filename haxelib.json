@@ -1,0 +1,13 @@
+{
+	"name": "computercraft",
+	"url": "https://github.com/apemanzilla/computercraft-haxelib",
+	"license": "MIT",
+	"tags": ["computercraft", "cc", "minecraft", "lua"],
+	"description": "Bindings for the Lua APIs of the ComputerCraft mod for Minecraft",
+	"version": "1.0.0",
+	"classPath": "src",
+	"releasenote": "Initial release",
+	"contributors": [
+		"apemanzilla"
+	]
+}
