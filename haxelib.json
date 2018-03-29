@@ -4,9 +4,9 @@
 	"license": "MIT",
 	"tags": ["computercraft", "cc", "minecraft", "lua"],
 	"description": "Bindings for the Lua APIs of the ComputerCraft mod for Minecraft",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"classPath": "src",
-	"releasenote": "Adds missing HTTP api and globals (in ComputerCraft class)",
+	"releasenote": "Fixes missing @:luaDotMethod on TerminalObject",
 	"contributors": [
 		"apemanzilla"
 	]

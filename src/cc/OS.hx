@@ -28,11 +28,11 @@ extern class OS {
 	@:native("pullEvent") private static function _pullEvent(?type: String): Dynamic;
 	@:native("pullEventRaw") private static function _pullEventRaw(?type: String): Dynamic;
 
-	public static inline function pullEvent(?type: String): ArrayAccess<Dynamic> {
+	public static inline function pullEvent(?type: String): Table<Int, Dynamic> {
 		return cast TableTools.pack(_pullEvent(type));
 	}
 
-	public static inline function pullEventRaw(?type: String): ArrayAccess<Dynamic> {
+	public static inline function pullEventRaw(?type: String): Table<Int, Dynamic> {
 		return cast TableTools.pack(_pullEventRaw(type));
 	}
 }

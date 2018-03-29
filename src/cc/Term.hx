@@ -14,6 +14,7 @@ extern class TerminalSize {
 	public var height: Int;
 }
 
+@:luaDotMethod
 extern class TerminalObject {
 	public function write(text: String): Void;
 	public function blit(text: String, colors: String, background: String): Void;
