@@ -6,7 +6,7 @@
 	"description": "Bindings for the Lua APIs of the ComputerCraft mod for Minecraft",
 	"version": "1.0.2",
 	"classPath": "src",
-	"releasenote": "Fixes missing @:luaDotMethod on TerminalObject",
+	"releasenote": "Fixes missing @:luaDotMethod on TerminalObject and package for ComputerCraft",
 	"contributors": [
 		"apemanzilla"
 	]

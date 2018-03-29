@@ -1,4 +1,4 @@
-package src.cc;
+package cc;
 
 @:native("_G")
 extern class ComputerCraft {
